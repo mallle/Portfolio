@@ -1,17 +1,45 @@
-/*Navigation*/
+body{
+    font-family: 'Monda', sans-serif !important;
+}
+
+h1{
+    border-bottom: #333 solid;
+    padding-bottom: 20px;
+    width: 65%;
+}
+h2 {
+    font-size: 42px !important;
+    border-bottom: #333 solid;
+    padding-bottom: 20px;
+    width: 65%;
+}
+/********************
+PADDINGS
+****++++++++++++++++*/
+.pt-60{
+    padding-top: 60px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+/********************
+NAViGATION
+****++++++++++++++++*/
 .navbar-custom {
-    background-color: #1E95FF;
+    background-color: #407AAD;
     color:#ffffff;
     border-radius:0;
 }
 
 .navbar-custom .navbar-nav > li > a {
-    color:#fff;
+    color: #fff;
 }
 
 .navbar-custom .navbar-nav > .active > a {
     color: #fff;
-    background-color: #1E69FF;
+    background-color: #5FB4D0;
 }
 
 .navbar-custom .navbar-nav > li > a:hover,
@@ -20,7 +48,7 @@
 .navbar-custom .navbar-nav > .active > a:focus,
 .navbar-custom .navbar-nav > .open >a {
     text-decoration: none;
-    background-color: #1E69FF;
+    background-color: #5FB4D0;
 }
 
 .navbar-custom .navbar-brand {
@@ -30,20 +58,35 @@
     background-color:#eeeee;
 }
 .navbar-custom .icon-bar {
-    background-color:#BE10CC;
+    background-color: #5FB4D0;
 }
 
-/*about*/
+/********************
 
-.jumbotron {
-  background-color: #1EC8FF !important;
-  color: #FFF !important;
+****++++++++++++++++*/
+.container{
+
 }
 
-.top {
-  padding-top: 50px;
-  padding-bottom: 50px;
+
+/********************
+HERO
+****++++++++++++++++*/
+.jumbotron{
+  background-color: #5FB4D0 !important;
+  color: #333 !important;
 }
+
+.top-bottom {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.small{
+    color: #333 !important;
+}
+
+
 
 .about {
   padding-top: 50px;
@@ -58,37 +101,28 @@
 }
 
 
-/*portfolio*/
-
-.portfolio {
-  text-align: center;
-  margin-top: 70px;
-  margin-bottom: 30px;
-  padding-top: 20px;
-}
-
+/**********************
+*PORTFOLIO
+***********************/
 .well {
   min-height: 321px !important;
   background-color: #FFF !important;
-  border: 3px #BE10CC Solid !important;
   margin-bottom: 50px !important;
   margin-top: 30px !important;
 }
-
 
 .img-responsive {
   margin: 0 auto;
   padding-bottom: 20px;
 }
 
-h4 {
-  padding-bottom: 20px;
-}
 
-/*contactbar*/
+/**********************
+*CONTACTBAR
+***********************/
 .contact {
-  color: #000;
-  background-color: #1EC8FF;
+  color: #333;
+  background-color: #5FB4D0;
   padding-top: 20px;
 }
 
@@ -110,7 +144,7 @@ h4 {
 }
 
 .btn {
-  background-color: #1E95FF;
+  background-color: #407AAD;
   float: right;
   margin-bottom: 30px;
 }
@@ -118,7 +152,7 @@ h4 {
 /*footer*/
 footer {
   padding: 20px;
-  background-color: #1E95FF;
+  background-color: #407AAD;
   color: #FFF;
 }
 
